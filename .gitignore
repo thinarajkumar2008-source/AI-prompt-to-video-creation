@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+*.env.local
+*.mp4
+server/storage/temp/
+server/storage/videos/
+**/storage/videos/
+**/storage/temp/
+*.tmp.*

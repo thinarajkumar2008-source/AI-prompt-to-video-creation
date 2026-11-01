@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": "usr_guest_demo",
+      "email": "guest@animagic.ai",
+      "name": "Demo Creator",
+      "passwordHash": "$2b$10$T1zpVvS3cnFNnjGeod5i2.jvT4kMZW/hdnVkHVjLHRQhROUcITLI2",
+      "role": "guest",
+      "createdAt": "2026-11-01T16:20:43.812Z"
+    },
+    {
+      "id": "usr_admin",
+      "email": "admin@animagic.ai",
+      "name": "System Admin",
+      "passwordHash": "$2b$10$T1zpVvS3cnFNnjGeod5i2.jvT4kMZW/hdnVkHVjLHRQhROUcITLI2",
+      "role": "admin",
+      "createdAt": "2026-11-01T16:20:43.813Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_98d1ab91ce5b4813",
+      "userId": "usr_guest_demo",
+      "prompt": "Ancient wizard laboratory with glowing potions and floating spell books",
+      "negativePrompt": "",
+      "model": "animagic-turbo",
+      "requestedDuration": 15,
+      "aspectRatio": "16:9",
+      "stylePreset": "Cinematic",
+      "cameraMovement": "Slow cinematic push-in (zoom)",
+      "status": "completed",
+      "progress": 100,
+      "currentStep": "Completed (15.0s, 1280x720)",
+      "sceneCount": 3,
+      "scenes": [
+        {
+          "index": 0,
+          "duration": 5,
+          "prompt": "[Scene 1/3] Ancient wizard laboratory with glowing potions and floating spell books. Style: Cinematic. Role: Establishing Wide Shot - Setting the world and atmospheric lighting. Camera: Slow cinematic push-in (zoom).",
+          "status": "completed",
+          "videoPath": "C:\\Users\\Thina rajkumar\\.gemini\\antigravity\\scratch\\animagic-ai\\server\\storage\\temp\\scene_job_98d1ab91ce5b4813_0.mp4"
+        },
+        {
+          "index": 1,
+          "duration": 5,
+          "prompt": "[Scene 2/3] Ancient wizard laboratory with glowing potions and floating spell books. Style: Cinematic. Role: Dynamic Subject Motion - Tracking close-up with kinetic focal shift. Camera: Dynamic orbital pan left-to-right.",
+          "status": "completed",
+          "videoPath": "C:\\Users\\Thina rajkumar\\.gemini\\antigravity\\scratch\\animagic-ai\\server\\storage\\temp\\scene_job_98d1ab91ce5b4813_1.mp4"
+        },
+        {
+          "index": 2,
+          "duration": 5,
+          "prompt": "[Scene 3/3] Ancient wizard laboratory with glowing potions and floating spell books. Style: Cinematic. Role: Cinematic Momentum - Heightened action with sweeping camera sweep. Camera: Low-angle tilt up with kinetic flare.",
+          "status": "completed",
+          "videoPath": "C:\\Users\\Thina rajkumar\\.gemini\\antigravity\\scratch\\animagic-ai\\server\\storage\\temp\\scene_job_98d1ab91ce5b4813_2.mp4"
+        }
+      ],
+      "createdAt": "2026-11-01T16:39:28.662Z",
+      "updatedAt": "2026-11-01T16:39:35.556Z",
+      "actualDuration": 15.033333,
+      "outputVideoId": "vid_a351a1d484d344a3",
+      "outputVideoUrl": "/api/videos/vid_a351a1d484d344a3/stream",
+      "completedAt": "2026-11-01T16:39:35.556Z"
+    },
+    {
+      "id": "job_b799ffda27a743d2",
+      "userId": "usr_guest_demo",
+      "prompt": "A golden eagle soaring over snow-capped mountain peaks, 8k crisp lighting",
+      "negativePrompt": "",
+      "model": "animagic-turbo",
+      "requestedDuration": 5,
+      "aspectRatio": "16:9",
+      "stylePreset": "Photorealistic 8K",
+      "cameraMovement": "Slow cinematic push-in (zoom)",
+      "status": "completed",
+      "progress": 100,
+      "currentStep": "Completed (5.0s, 1280x720)",
+      "sceneCount": 1,
+      "scenes": [
+        {
+          "index": 0,
+          "duration": 5,
+          "prompt": "[Scene 1/1] A golden eagle soaring over snow-capped mountain peaks, 8k crisp lighting. Style: Photorealistic 8K. Role: Establishing Wide Shot - Setting the world and atmospheric lighting. Camera: Slow cinematic push-in (zoom).",
+          "status": "completed",
+          "videoPath": "C:\\Users\\Thina rajkumar\\.gemini\\antigravity\\scratch\\animagic-ai\\server\\storage\\temp\\scene_job_b799ffda27a743d2_0.mp4"
+        }
+      ],
+      "createdAt": "2026-11-01T16:39:28.474Z",
+      "updatedAt": "2026-11-01T16:39:30.203Z",
+      "actualDuration": 5,
+      "outputVideoId": "vid_3164ba81aef94e2f",
+      "outputVideoUrl": "/api/videos/vid_3164ba81aef94e2f/stream",
+      "completedAt": "2026-11-01T16:39:30.203Z"
+    },
+    {
+      "id": "job_a58d45f4d1434be0",
+      "userId": "usr_guest_demo",
+      "prompt": "A breathtaking cinematic drone shot of a futuristic neon city at sunset",
+      "negativePrompt": "",
+      "model": "animagic-turbo",
+      "requestedDuration": 10,
+      "aspectRatio": "16:9",
+      "stylePreset": "Cyberpunk / Neon",
+      "cameraMovement": "Slow cinematic push-in (zoom)",
+      "status": "completed",
+      "progress": 100,
+      "currentStep": "Completed (10.0s, 1280x720)",
+      "sceneCount": 2,
+      "scenes": [
+        {
+          "index": 0,
+          "duration": 5,
+          "prompt": "[Scene 1/2] A breathtaking cinematic drone shot of a futuristic neon city at sunset. Style: Cyberpunk / Neon. Role: Establishing Wide Shot - Setting the world and atmospheric lighting. Camera: Slow cinematic push-in (zoom).",
+          "status": "completed",
+          "videoPath": "C:\\Users\\Thina rajkumar\\.gemini\\antigravity\\scratch\\animagic-ai\\server\\storage\\temp\\scene_job_a58d45f4d1434be0_0.mp4"
+        },
+        {
+          "index": 1,
+          "duration": 5,
+          "prompt": "[Scene 2/2] A breathtaking cinematic drone shot of a futuristic neon city at sunset. Style: Cyberpunk / Neon. Role: Dynamic Subject Motion - Tracking close-up with kinetic focal shift. Camera: Dynamic orbital pan left-to-right.",
+          "status": "completed",
+          "videoPath": "C:\\Users\\Thina rajkumar\\.gemini\\antigravity\\scratch\\animagic-ai\\server\\storage\\temp\\scene_job_a58d45f4d1434be0_1.mp4"
+        }
+      ],
+      "createdAt": "2026-11-01T16:31:36.133Z",
+      "updatedAt": "2026-11-01T16:37:54.389Z",
+      "actualDuration": 10.033333,
+      "outputVideoId": "vid_91f4f78b04404fe9",
+      "outputVideoUrl": "/api/videos/vid_91f4f78b04404fe9/stream",
+      "completedAt": "2026-11-01T16:37:54.389Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_a351a1d484d344a3",
+      "jobId": "job_98d1ab91ce5b4813",
+      "userId": "usr_guest_demo",
+      "filename": "job_98d1ab91ce5b4813.mp4",
+      "filePath": "C:\\Users\\Thina rajkumar\\.gemini\\antigravity\\scratch\\animagic-ai\\server\\storage\\videos\\usr_guest_demo\\job_98d1ab91ce5b4813.mp4",
+      "duration": 15.033333,
+      "width": 1280,
+      "height": 720,
+      "fileSize": 2357346,
+      "aspectRatio": "16:9",
+      "prompt": "Ancient wizard laboratory with glowing potions and floating spell books",
+      "model": "animagic-turbo",
+      "createdAt": "2026-11-01T16:39:35.555Z"
+    },
+    {
+      "id": "vid_3164ba81aef94e2f",
+      "jobId": "job_b799ffda27a743d2",
+      "userId": "usr_guest_demo",
+      "filename": "job_b799ffda27a743d2.mp4",
+      "filePath": "C:\\Users\\Thina rajkumar\\.gemini\\antigravity\\scratch\\animagic-ai\\server\\storage\\videos\\usr_guest_demo\\job_b799ffda27a743d2.mp4",
+      "duration": 5,
+      "width": 1280,
+      "height": 720,
+      "fileSize": 817961,
+      "aspectRatio": "16:9",
+      "prompt": "A golden eagle soaring over snow-capped mountain peaks, 8k crisp lighting",
+      "model": "animagic-turbo",
+      "createdAt": "2026-11-01T16:39:30.201Z"
+    },
+    {
+      "id": "vid_91f4f78b04404fe9",
+      "jobId": "job_a58d45f4d1434be0",
+      "userId": "usr_guest_demo",
+      "filename": "job_a58d45f4d1434be0.mp4",
+      "filePath": "C:\\Users\\Thina rajkumar\\.gemini\\antigravity\\scratch\\animagic-ai\\server\\storage\\videos\\usr_guest_demo\\job_a58d45f4d1434be0.mp4",
+      "duration": 10.033333,
+      "width": 1280,
+      "height": 720,
+      "fileSize": 1564596,
+      "aspectRatio": "16:9",
+      "prompt": "A breathtaking cinematic drone shot of a futuristic neon city at sunset",
+      "model": "animagic-turbo",
+      "createdAt": "2026-11-01T16:37:54.387Z"
+    }
+  ]
+}
